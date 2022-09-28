@@ -1,0 +1,97 @@
+
+* {
+    color: #262626;
+    font-weight: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 8vmax;
+    margin: 0;
+}
+
+h2 {
+    font-size: 4vmax;
+    margin: 0;
+}
+
+#weather-img {
+    width: 15%;
+    height: auto;
+    margin: 2vh auto;
+}
+
+#townhall {
+    margin:2vh auto;
+    width: 50%;
+    height: auto;
+}
+
+#koziolki {
+    margin: 2vh auto;
+    width: 100px;
+    height: auto;
+}
+
+#subscript {
+    /* position: absolute;
+    left: 50%; */
+    bottom: 10%;
+    position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+
+}
+
+#app {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+#left-panel {
+    width: 30%;
+    background-color: #F3F4CC;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#text-data {
+    display: block;
+    margin: auto;
+    height: fit-content;
+    align-self: center;
+    justify-content: center;
+    /* background-color: blueviolet; */
+}
+
+#text-data div {
+    margin: 50px 0;
+}
+
+#right-panel {
+    width: 70%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#canvas1 {
+    background: #F3F4CC;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
