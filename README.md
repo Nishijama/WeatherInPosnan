@@ -5,7 +5,7 @@
 
 ### Screenshot
 more screenshots below.
-![main screenshot](screenshot.png)
+![main screenshot](screenshot.PNG)
 
 
 ### Technologies:
